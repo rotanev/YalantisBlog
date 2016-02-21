@@ -7,21 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		318732A4DB191B8F91496757 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A02B073B340E13747132BA /* libPods.a */; };
 		A52FFC391C788954006016A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52FFC381C788954006016A4 /* AppDelegate.swift */; };
-		A52FFC3B1C788954006016A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52FFC3A1C788954006016A4 /* ViewController.swift */; };
+		A52FFC3B1C788954006016A4 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52FFC3A1C788954006016A4 /* MainController.swift */; };
 		A52FFC3E1C788954006016A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52FFC3C1C788954006016A4 /* Main.storyboard */; };
 		A52FFC401C788954006016A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A52FFC3F1C788954006016A4 /* Assets.xcassets */; };
 		A52FFC431C788954006016A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52FFC411C788954006016A4 /* LaunchScreen.storyboard */; };
+		A52FFC521C78CBDA006016A4 /* OHHTTPStubsSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52FFC511C78CBDA006016A4 /* OHHTTPStubsSwift.swift */; };
+		A52FFC541C78CD07006016A4 /* yalantis.json in Resources */ = {isa = PBXBuildFile; fileRef = A52FFC531C78CD07006016A4 /* yalantis.json */; };
+		A52FFC561C78E5BE006016A4 /* MainViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52FFC551C78E5BE006016A4 /* MainViews.swift */; };
+		A52FFC581C78ECFD006016A4 /* ViewCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52FFC571C78ECFD006016A4 /* ViewCollection.swift */; };
+		A52FFC5A1C7A22F9006016A4 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52FFC591C7A22F9006016A4 /* AppController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30A02B073B340E13747132BA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		61049CA1B779CCDFDD9FAE68 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A52FFC351C788954006016A4 /* YalantisBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YalantisBlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52FFC381C788954006016A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A52FFC3A1C788954006016A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A52FFC3A1C788954006016A4 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		A52FFC3D1C788954006016A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A52FFC3F1C788954006016A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A52FFC421C788954006016A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A52FFC441C788954006016A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A52FFC4A1C78BF51006016A4 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "Pods/../build/Debug-iphoneos/libAFNetworking.a"; sourceTree = "<group>"; };
+		A52FFC4C1C78C0F1006016A4 /* libOHHTTPStubs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOHHTTPStubs.a; path = "Pods/../build/Debug-iphoneos/libOHHTTPStubs.a"; sourceTree = "<group>"; };
+		A52FFC501C78C7AD006016A4 /* YalantisBlog-Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YalantisBlog-Bridge.h"; sourceTree = "<group>"; };
+		A52FFC511C78CBDA006016A4 /* OHHTTPStubsSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OHHTTPStubsSwift.swift; sourceTree = "<group>"; };
+		A52FFC531C78CD07006016A4 /* yalantis.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = yalantis.json; sourceTree = "<group>"; };
+		A52FFC551C78E5BE006016A4 /* MainViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViews.swift; sourceTree = "<group>"; };
+		A52FFC571C78ECFD006016A4 /* ViewCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewCollection.swift; sourceTree = "<group>"; };
+		A52FFC591C7A22F9006016A4 /* AppController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		B61B9AED0AB12098A9DEDA59 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +46,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				318732A4DB191B8F91496757 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78A5C4DEFFF10FC238DD0274 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B61B9AED0AB12098A9DEDA59 /* Pods.debug.xcconfig */,
+				61049CA1B779CCDFDD9FAE68 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A52FFC2C1C788954006016A4 = {
 			isa = PBXGroup;
 			children = (
 				A52FFC371C788954006016A4 /* YalantisBlog */,
 				A52FFC361C788954006016A4 /* Products */,
+				78A5C4DEFFF10FC238DD0274 /* Pods */,
+				EEE2DB8D7C866113275B188D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +84,29 @@
 			isa = PBXGroup;
 			children = (
 				A52FFC381C788954006016A4 /* AppDelegate.swift */,
-				A52FFC3A1C788954006016A4 /* ViewController.swift */,
+				A52FFC591C7A22F9006016A4 /* AppController.swift */,
+				A52FFC3A1C788954006016A4 /* MainController.swift */,
+				A52FFC571C78ECFD006016A4 /* ViewCollection.swift */,
+				A52FFC551C78E5BE006016A4 /* MainViews.swift */,
 				A52FFC3C1C788954006016A4 /* Main.storyboard */,
-				A52FFC3F1C788954006016A4 /* Assets.xcassets */,
 				A52FFC411C788954006016A4 /* LaunchScreen.storyboard */,
+				A52FFC3F1C788954006016A4 /* Assets.xcassets */,
 				A52FFC441C788954006016A4 /* Info.plist */,
+				A52FFC531C78CD07006016A4 /* yalantis.json */,
+				A52FFC501C78C7AD006016A4 /* YalantisBlog-Bridge.h */,
+				A52FFC511C78CBDA006016A4 /* OHHTTPStubsSwift.swift */,
 			);
 			path = YalantisBlog;
+			sourceTree = "<group>";
+		};
+		EEE2DB8D7C866113275B188D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A52FFC4C1C78C0F1006016A4 /* libOHHTTPStubs.a */,
+				A52FFC4A1C78BF51006016A4 /* libAFNetworking.a */,
+				30A02B073B340E13747132BA /* libPods.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A52FFC471C788954006016A4 /* Build configuration list for PBXNativeTarget "YalantisBlog" */;
 			buildPhases = (
+				C7E6F998A13FD115E1F57E7F /* Check Pods Manifest.lock */,
 				A52FFC311C788954006016A4 /* Sources */,
 				A52FFC321C788954006016A4 /* Frameworks */,
 				A52FFC331C788954006016A4 /* Resources */,
+				1722500B0445BB753C35567E /* Embed Pods Frameworks */,
+				4DFEFE9A26E42EC964206206 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A52FFC541C78CD07006016A4 /* yalantis.json in Resources */,
 				A52FFC431C788954006016A4 /* LaunchScreen.storyboard in Resources */,
 				A52FFC401C788954006016A4 /* Assets.xcassets in Resources */,
 				A52FFC3E1C788954006016A4 /* Main.storyboard in Resources */,
@@ -130,13 +179,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1722500B0445BB753C35567E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DFEFE9A26E42EC964206206 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7E6F998A13FD115E1F57E7F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A52FFC311C788954006016A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A52FFC3B1C788954006016A4 /* ViewController.swift in Sources */,
+				A52FFC521C78CBDA006016A4 /* OHHTTPStubsSwift.swift in Sources */,
+				A52FFC581C78ECFD006016A4 /* ViewCollection.swift in Sources */,
+				A52FFC3B1C788954006016A4 /* MainController.swift in Sources */,
+				A52FFC561C78E5BE006016A4 /* MainViews.swift in Sources */,
 				A52FFC391C788954006016A4 /* AppDelegate.swift in Sources */,
+				A52FFC5A1C7A22F9006016A4 /* AppController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +299,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -236,7 +337,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -245,23 +346,35 @@
 		};
 		A52FFC481C788954006016A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B61B9AED0AB12098A9DEDA59 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YalantisBlog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jettix.YalantisBlog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/$(SWIFT_MODULE_NAME)/$(SWIFT_MODULE_NAME)-Bridge.h";
 			};
 			name = Debug;
 		};
 		A52FFC491C788954006016A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61049CA1B779CCDFDD9FAE68 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YalantisBlog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jettix.YalantisBlog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/$(SWIFT_MODULE_NAME)/$(SWIFT_MODULE_NAME)-Bridge.h";
 			};
 			name = Release;
 		};
@@ -284,6 +397,7 @@
 				A52FFC491C788954006016A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
