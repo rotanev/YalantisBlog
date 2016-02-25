@@ -5,5 +5,5 @@
 - AFNetworking: 3.0.4
 - OHHTTPStubs: 4.7.1
 
-All application requirements [пример] [id] (rus)
+All application requirements [here] [id] (rus)
 [id]: https://drive.google.com/file/d/0ByxUGMX7RAhAZDMwTzNZUmQzMTQ/view?usp=sharing
